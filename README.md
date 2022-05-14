@@ -1,9 +1,10 @@
 <h1 align="center">CustCross</h1>
 <h3 align="center">Customizeble Crosshairs for all weapons in Titanfall 2</h3>
-
 <p align="center">
 <img width="260" height="260" src="https://user-images.githubusercontent.com/37307454/168434143-920c9371-4d3c-40f1-9f4f-1ec621b6b8b4.gif">
 </p>
+
+*Base Was Used from **S2.CrosshairCar** mod by **S2ymi#6601***
 
 <h3 align="left"> List of console commands:</h3>
 
