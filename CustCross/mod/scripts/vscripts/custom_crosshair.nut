@@ -13013,7 +13013,7 @@ void function customcrossMain(){
                         hasDPlus = true
                     }
 
-                    RuiSetFloat(custcrossDPlus, "adjustedSpread", 0.0005*player.GetAttackSpreadAngle() + 0.03)
+                    RuiSetFloat(custcrossDPlus, "adjustedSpread", 0.000*player.GetAttackSpreadAngle() + 0.000003)
                     if(a_Dzoom)
                     RuiSetFloat(custcrossDPlus, "adsFrac", player.GetZoomFrac())
                     if(a_Dfade)
