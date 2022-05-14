@@ -1,0 +1,30 @@
+"vm_fov_pilot"
+{
+	"global"
+	{
+
+
+		hardFallDist	0
+
+		viewkickFallDistMin			0
+		viewkickFallDistMax			0
+		viewkickFallDistMaxScale	0
+
+		cockpitSwayTurnAngleFactor		0
+		cockpitSwayTurnAngleRollFactor	0
+		cockpitSwayTurnOriginFactor		0
+		cockpitSwayMoveAngleFactor		0
+		cockpitSwayMoveAngleRollFactor	0
+		cockpitSwayMoveOriginFactor		0
+		cockpitSwayGain					0
+
+
+
+		leech_range					0
+		impactSpeed					3800
+		pitchOffsetScale			0
+		yawOffsetScale			0
+
+
+	}
+}

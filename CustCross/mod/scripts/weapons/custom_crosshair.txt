@@ -1,0 +1,4 @@
+WeaponData
+{
+    active_crosshair_count            "0"
+}
