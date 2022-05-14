@@ -6,7 +6,7 @@
 
 *Base Was Used from **S2.CrosshairCar** mod by **S2ymi#6601***
 
-4 Layers of Separatly Customizeble 27 crosshairs
+4 Layers of Separately Customizable 27 crosshairs
 
 
 
