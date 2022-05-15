@@ -1,7 +1,7 @@
 {
 	"Name": "CustCross",
 	"Description": "Customizable Crosshairs for all weapons Base was used from S2.CrosshairCAR mod by S2ym",
-	"LoadPriority": 2,
+	"LoadPriority": 1,
 	"RequiredOnClient": false,
 	"Version": "1.0.1",
 	
