@@ -1,6 +1,6 @@
 {
   "name": "CustCross",
-  "version_number": "1.0.0",
+  "version_number": "1.0.1",
   "website_url": "https://github.com/Strykus/CustCross",
   "description": "CustomizebleCrosshairs for all weapons Base was used from S2.CrosshairCAR mod by S2ym",
   "dependencies": [
