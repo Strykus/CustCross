@@ -1,9 +1,9 @@
 {
   "name": "CustCross",
-  "version_number": "1.0.1",
+  "version_number": "1.0.0",
   "website_url": "https://github.com/Strykus/CustCross",
-  "description": "Customizeble Crosshairs for all weapons Base was used from S2.CrosshairCAR mod by S2ym",
+  "description": "CustomizebleCrosshairs for all weapons Base was used from S2.CrosshairCAR mod by S2ym",
   "dependencies": [
-    "northstar-Northstar-1.7.0"
+    "northstar-Northstar-1.7.0","EladNLG-ModSettings-1.1.1"
 ]
 }
