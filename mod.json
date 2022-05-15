@@ -1,0 +1,148 @@
+{
+	"Name": "CustCrossNoModMenu",
+	"Description": "Customizeble Crosshairs for all weapons without ModMenuMod Base was used from S2.CrosshairCAR mod by S2ym",
+	"LoadPriority": 2,
+	"RequiredOnClient": false,
+	"Version": "1.0.0",
+	
+	"Scripts": [
+		{
+			"Path": "custom_crosshair.nut",
+			"RunOn": "CLIENT",
+			"ClientCallback": {
+				"After": "customcrossPrecache"
+			}
+		}
+		 /*
+		{
+			"Path": "ui/custom_cross_mod_settings.nut",
+			"RunOn": "UI",
+			"UICallback": {
+				"Before": "custcrossAddSettings"
+			}
+		}
+		 */
+	],
+	"ConVars": [
+		{
+		  "Name": "a_cust_rgb",
+		  "DefaultValue": "0",
+		  "Flags": 16777232
+		},
+		{
+			"Name": "a_cust_rgbB",
+			"DefaultValue": "0",
+			"Flags": 16777232
+		  },
+		  {
+			"Name": "a_cust_rgbC",
+			"DefaultValue": "0",
+			"Flags": 16777232
+		  },
+		  {
+			"Name": "a_cust_rgbD",
+			"DefaultValue": "0",
+			"Flags": 16777232
+		  },
+		{
+		  "Name": "a_cust_col",
+		  "DefaultValue": "5.0 0.0 1.0",
+		  "Flags": 16777232
+		},
+		{
+			"Name": "a_cust_colB",
+			"DefaultValue": "5.0 1.0 0.0",
+			"Flags": 16777232
+		  },
+		  {
+			"Name": "a_cust_colC",
+			"DefaultValue": "0.0 1.0 10.0",
+			"Flags": 16777232
+		  },
+		  {
+			"Name": "a_cust_colD",
+			"DefaultValue": "0.0 4.0 0.0",
+			"Flags": 16777232
+		  },
+		{
+		  "Name": "a_cust_crosshair_type",
+		  "DefaultValue": "2",
+		  "Flags": 16777232
+		},
+		{
+			"Name": "a_cust_crosshair_typeB",
+			"DefaultValue": "14",
+			"Flags": 16777232
+		  },
+		  {
+			"Name": "a_cust_crosshair_typeC",
+			"DefaultValue": "20",
+			"Flags": 16777232
+		  },
+		  {
+			"Name": "a_cust_crosshair_typeD",
+			"DefaultValue": "22",
+			"Flags": 16777232
+		  },
+		{
+		  "Name": "a_cust_col_amp",
+		  "DefaultValue": "1.0 0.7 0.1",
+		  "Flags": 16777232
+		},
+		{
+			"Name": "a_cust_col_ampB",
+			"DefaultValue": "1.0 0.7 0.1",
+			"Flags": 16777232
+		  },
+		  {
+			"Name": "a_cust_col_ampC",
+			"DefaultValue": "1.0 0.7 0.1",
+			"Flags": 16777232
+		  },
+		  {
+			"Name": "a_cust_col_ampD",
+			"DefaultValue": "1.0 0.7 0.1",
+			"Flags": 16777232
+		  },
+		  {
+			"Name": "a_cust_zoom",
+			"DefaultValue": "1",
+			"Flags": 16777232
+		  },
+		  {
+			"Name": "a_cust_zoomB",
+			"DefaultValue": "1",
+			"Flags": 16777232
+		  },
+		  {
+			"Name": "a_cust_zoomC",
+			"DefaultValue": "1",
+			"Flags": 16777232
+		  },
+		  {
+			"Name": "a_cust_zoomD",
+			"DefaultValue": "1",
+			"Flags": 16777232
+		  },
+		{
+		  "Name": "a_cust_fade",
+		  "DefaultValue": "1",
+		  "Flags": 16777232
+		},
+		{
+			"Name": "a_cust_fadeB",
+			"DefaultValue": "1",
+			"Flags": 16777232
+		  },
+		  {
+			"Name": "a_cust_fadeC",
+			"DefaultValue": "1",
+			"Flags": 16777232
+		  },
+		  {
+			"Name": "a_cust_fadeD",
+			"DefaultValue": "1",
+			"Flags": 16777232
+		  }
+	]
+}
