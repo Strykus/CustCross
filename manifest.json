@@ -1,8 +1,8 @@
 {
-  "name": "CustCrossNoModMenu",
-  "version_number": "1.0.0",
+  "name": "CustCross",
+  "version_number": "1.0.1",
   "website_url": "https://github.com/Strykus/CustCross",
-  "description": "Customizeble Crosshairs for all weapons without ModMenuMod Base was used from S2.CrosshairCAR mod by S2ym",
+  "description": "Customizeble Crosshairs for all weapons Base was used from S2.CrosshairCAR mod by S2ym",
   "dependencies": [
     "northstar-Northstar-1.7.0"
 ]
