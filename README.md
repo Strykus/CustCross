@@ -1,12 +1,12 @@
 <h1 align="center">CustCross</h1>
-<h3 align="center">Customizeble Crosshairs for all weapons in Titanfall 2</h3>
+<h3 align="center">Customizable Crosshairs for all weapons in Titanfall 2</h3>
 <p align="center">
 <img width="260" height="260" src="https://user-images.githubusercontent.com/37307454/168434143-920c9371-4d3c-40f1-9f4f-1ec621b6b8b4.gif">
 </p>
 
 *Base Was Used from **S2.CrosshairCar** mod by **S2ymi#6601***
 
-4 Layers of Separately Customizable 27 crosshairs
+***4 Layers of Separatly Customizable 27 crosshairs***
 
 
 
@@ -34,7 +34,27 @@
 
 ![изображение](https://user-images.githubusercontent.com/37307454/168440234-cf209905-6c1e-4614-99a6-985a2f8a1805.png)
 
+After set up your crosshair, you can set values in `mod.json` so crosshair does not reset on game restart.
+
+But the best way is make a cfg with commands you setup and just add `+exec <name of your cfg>.cfg` in ***Launch Options***
+
+***Example cfg of Crosshair style that i use***
+
+    a_cust_crosshair_type  1
+    a_cust_crosshair_typeB  20
+    a_cust_crosshair_typeC  26
+    a_cust_crosshair_typeD  26
+
+    a_cust_col 5.0 0.0 1.0
+    a_cust_colB 25.0 1.0 0.0
+
+    a_cust_zoom 1
+    a_cust_zoomB 0
+
+    a_cust_fade 0
+    a_cust_fadeB 0
+
+![AvalarCosshair](https://user-images.githubusercontent.com/37307454/168702913-c4d3d06f-4802-4289-807f-cd97bce1318d.png)
 
 
-Use [***ModSettingsMod***](https://northstar.thunderstore.io/package/EladNLG/ModSettings)
-For using interface for mod instead of console commands
+Share your crosshair setup with other just submiting pull request on GitHub link and i add those on the Wiki section with your name ect.
