@@ -14,25 +14,31 @@
 
 `a_cust_col/B/C/D` - main color
 
-![изображение](https://user-images.githubusercontent.com/37307454/168437802-1f52e7d5-5338-48d9-a00f-955e9264cd1d.png)
+![a_cust_col](https://user-images.githubusercontent.com/37307454/168437802-1f52e7d5-5338-48d9-a00f-955e9264cd1d.png)
 
 
 `a_cust_crosshair_type/B/C/D` - crosshair style
 
-![изображение](https://user-images.githubusercontent.com/37307454/168437865-2591f693-dc6d-46ec-b2bb-658cb4cadeba.png)
+![a_cust_crosshair_type](https://user-images.githubusercontent.com/37307454/168437865-2591f693-dc6d-46ec-b2bb-658cb4cadeba.png)
 
 
 `a_cust_col_amp/B/C/D` - crosshair color when amped
 
-![изображение](https://user-images.githubusercontent.com/37307454/168437699-01073bc0-8645-4196-a004-ca960a561615.png)
+![a_cust_col_amp](https://user-images.githubusercontent.com/37307454/168437699-01073bc0-8645-4196-a004-ca960a561615.png)
 
 `a_cust_zoom/B/C/D` - fade crosshair or not while ads
 
-![изображение](https://user-images.githubusercontent.com/37307454/168437628-5e45a2ad-0c6b-4025-aa8d-2a8689f943fd.png)
+![a_cust_zoom](https://user-images.githubusercontent.com/37307454/168437628-5e45a2ad-0c6b-4025-aa8d-2a8689f943fd.png)
 
 `a_cust_fade/B/C/D` - fade crosshair or not while reloading
 
-![изображение](https://user-images.githubusercontent.com/37307454/168440234-cf209905-6c1e-4614-99a6-985a2f8a1805.png)
+![a_cust_fade](https://user-images.githubusercontent.com/37307454/168440234-cf209905-6c1e-4614-99a6-985a2f8a1805.png)
+
+`a_cust_rgb/B/C/D` - enable/disable rgb crosshair
+
+![a_cust_rgb](https://user-images.githubusercontent.com/37307454/168703232-6761d7a3-3acb-4ae5-998c-e80045de5b42.png)
+
+
 
 After set up your crosshair, you can set values in `mod.json` so crosshair does not reset on game restart.
 
@@ -48,7 +54,7 @@ But the best way is make a cfg with commands you setup and just add `+exec <name
     a_cust_col 5.0 0.0 1.0
     a_cust_colB 25.0 1.0 0.0
 
-    a_cust_zoom 1
+    a_cust_zoom 0
     a_cust_zoomB 0
 
     a_cust_fade 0
