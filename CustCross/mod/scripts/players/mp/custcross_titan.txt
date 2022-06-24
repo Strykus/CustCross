@@ -2,9 +2,9 @@
 {
 	"global"
 	{
-		viewkickFallDistMin			0
-		viewkickFallDistMax			0
-		viewkickFallDistMaxScale	0
+		//viewkickFallDistMin			0
+		//viewkickFallDistMax			0
+		//viewkickFallDistMaxScale	0
 
 		cockpitSwayTurnAngleFactor		0
 		cockpitSwayTurnAngleRollFactor	0
