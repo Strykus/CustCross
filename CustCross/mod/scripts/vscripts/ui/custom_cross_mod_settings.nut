@@ -1,36 +1,40 @@
 global function custcrossAddSettings
 
-void function custcrossAddSettings(){
-    AddConVarSettingEnum("a_cust_crosshair_type", "Crosshair Shape", "CustCrossShapes", ["Car", "Alternator", "EVA", "Mastiff", "WingmanE", "GL", "Mozambique", "SMR", "B3wingman", "CircleBig", "CircleSmall", "ChargeRifle", "Plus", "Leadwall", "FlightCore", "TitanSniper", "40mm", "Scorch", "Rockets", "Frag", "Arc", "PulseBlade", "GravStar", "Satchel", "Firestar", "eSmoke", "Empty"])
-    AddConVarSettingEnum("a_cust_crosshair_typeB", "Crosshair Shape2", "CustCrossShapes", ["Car", "Alternator", "EVA", "Mastiff", "WingmanE", "GL", "Mozambique", "SMR", "B3wingman", "CircleBig", "CircleSmall", "ChargeRifle", "Plus", "Leadwall", "FlightCore", "TitanSniper", "40mm", "Scorch", "Rockets", "Frag", "Arc", "PulseBlade", "GravStar", "Satchel", "Firestar", "eSmoke", "Empty"])
-    AddConVarSettingEnum("a_cust_crosshair_typeC", "Crosshair Shape3", "CustCrossShapes", ["Car", "Alternator", "EVA", "Mastiff", "WingmanE", "GL", "Mozambique", "SMR", "B3wingman", "CircleBig", "CircleSmall", "ChargeRifle", "Plus", "Leadwall", "FlightCore", "TitanSniper", "40mm", "Scorch", "Rockets", "Frag", "Arc", "PulseClade", "GravStar", "Satchel", "Firestar", "eSmoke", "Empty"])
-    AddConVarSettingEnum("a_cust_crosshair_typeD", "Crosshair Shape4", "CustCrossShapes", ["Car", "Alternator", "EVA", "Mastiff", "WingmanE", "GL", "Mozambique", "SMR", "B3wingman", "CircleBig", "CircleSmall", "ChargeRifle", "Plus", "Leadwall", "FlightCore", "TitanSniper", "40mm", "Scorch", "Rockets", "Frag", "Arc", "PulseDlade", "GravStar", "Satchel", "Firestar", "eSmoke", "Empty"])
-
-    AddConVarSetting("a_cust_col", "Base Color", "CustCrossMainCol", "vector")
-    AddConVarSetting("a_cust_colB", "Base Color2", "CustCrossMainCol", "vector")
-    AddConVarSetting("a_cust_colC", "Base Color3", "CustCrossMainCol", "vector")
-    AddConVarSetting("a_cust_colD", "Base Color2", "CustCrossMainCol", "vector")
-
-    AddConVarSetting("a_cust_col_amp", "Amped Color", "CustCrossAmpCol", "vector")
-    AddConVarSetting("a_cust_col_ampB", "Amped Colour2", "CustCrossAmpCol", "vector")
-    AddConVarSetting("a_cust_col_ampC", "Amped Colour3", "CustCrossAmpCol", "vector")
-    AddConVarSetting("a_cust_col_ampD", "Amped Colour4", "CustCrossAmpCol", "vector")
-
-    AddConVarSettingEnum("a_cust_fade", "Fade on Reload", "CustCrossFadeReload", ["Off", "On"])
-    AddConVarSettingEnum("a_cust_fadeB", "Fade on Reload2", "CustCrossFadeReload", ["Off", "On"])
-    AddConVarSettingEnum("a_cust_fadeC", "Fade on Reload3", "CustCrossFadeReload", ["Off", "On"])
-    AddConVarSettingEnum("a_cust_fadeD", "Fade on Reload4", "CustCrossFadeReload", ["Off", "On"])
-
-    AddConVarSettingEnum("a_cust_zoom", "Fade on ADS", "CustCrossFadeADS", ["Off", "On"])
-    AddConVarSettingEnum("a_cust_zoomB", "Fade on ADS2", "CustCrossFadeADS", ["Off", "On"])
-    AddConVarSettingEnum("a_cust_zoomC", "Fade on ADS3", "CustCrossFadeADS", ["Off", "On"])
-    AddConVarSettingEnum("a_cust_zoomD", "Fade on ADS4", "CustCrossFadeADS", ["Off", "On"])
-
-    AddConVarSettingEnum("a_cust_rgb", "RGB Crosshair", "CustCrossRGB", ["Off", "On :D"])
-    AddConVarSettingEnum("a_cust_rgbB", "RGB Crosshair2", "CustCrossRGB", ["Off", "On :D"])
-    AddConVarSettingEnum("a_cust_rgbC", "RGB Crosshair3", "CustCrossRGB", ["Off", "On :D"])
-    AddConVarSettingEnum("a_cust_rgbD", "RGB Crosshair4", "CustCrossRGB", ["Off", "On :D"])
-
+void function custcrossAddSettings()
+{
+    
+	AddModTitle("Custom Crosshair")
+	AddModCategory("Shape Settings")
+    AddConVarSettingEnum("a_cust_crosshair_type", "Crosshair Shape", ["Car", "Alternator", "EVA", "Mastiff", "WingmanE", "GL", "Mozambique", "SMR", "B3wingman", "CircleBig", "CircleSmall", "ChargeRifle", "Plus", "Leadwall", "FlightCore", "TitanSniper", "40mm", "Scorch", "Rockets", "Frag", "Arc", "PulseBlade", "GravStar", "Satchel", "Firestar", "eSmoke", "Empty"])
+    AddConVarSettingEnum("a_cust_crosshair_typeB", "Crosshair Shape2", ["Car", "Alternator", "EVA", "Mastiff", "WingmanE", "GL", "Mozambique", "SMR", "B3wingman", "CircleBig", "CircleSmall", "ChargeRifle", "Plus", "Leadwall", "FlightCore", "TitanSniper", "40mm", "Scorch", "Rockets", "Frag", "Arc", "PulseBlade", "GravStar", "Satchel", "Firestar", "eSmoke", "Empty"])
+    AddConVarSettingEnum("a_cust_crosshair_typeC", "Crosshair Shape3", ["Car", "Alternator", "EVA", "Mastiff", "WingmanE", "GL", "Mozambique", "SMR", "B3wingman", "CircleBig", "CircleSmall", "ChargeRifle", "Plus", "Leadwall", "FlightCore", "TitanSniper", "40mm", "Scorch", "Rockets", "Frag", "Arc", "PulseClade", "GravStar", "Satchel", "Firestar", "eSmoke", "Empty"])
+    AddConVarSettingEnum("a_cust_crosshair_typeD", "Crosshair Shape4", ["Car", "Alternator", "EVA", "Mastiff", "WingmanE", "GL", "Mozambique", "SMR", "B3wingman", "CircleBig", "CircleSmall", "ChargeRifle", "Plus", "Leadwall", "FlightCore", "TitanSniper", "40mm", "Scorch", "Rockets", "Frag", "Arc", "PulseDlade", "GravStar", "Satchel", "Firestar", "eSmoke", "Empty"])
+	AddModCategory("Base Color")
+    AddConVarSetting("a_cust_col", "Base Color", "vector")
+    AddConVarSetting("a_cust_colB", "Base Color2", "vector")
+    AddConVarSetting("a_cust_colC", "Base Color3", "vector")
+    AddConVarSetting("a_cust_colD", "Base Color2", "vector")
+	AddModCategory("While Amped Color")
+    AddConVarSetting("a_cust_col_amp", "Amped Color", "vector")
+    AddConVarSetting("a_cust_col_ampB", "Amped Colour2", "vector")
+    AddConVarSetting("a_cust_col_ampC", "Amped Colour3", "vector")
+    AddConVarSetting("a_cust_col_ampD", "Amped Colour4", "vector")
+	AddModCategory("Fade on Reload")
+    AddConVarSettingEnum("a_cust_fade", "Fade on Reload", ["Off", "On"])
+    AddConVarSettingEnum("a_cust_fadeB", "Fade on Reload2", ["Off", "On"])
+    AddConVarSettingEnum("a_cust_fadeC", "Fade on Reload3", ["Off", "On"])
+    AddConVarSettingEnum("a_cust_fadeD", "Fade on Reload4", ["Off", "On"])
+	AddModCategory("Fade on ADS")
+    AddConVarSettingEnum("a_cust_zoom", "Fade on ADS", ["Off", "On"])
+    AddConVarSettingEnum("a_cust_zoomB", "Fade on ADS2", ["Off", "On"])
+    AddConVarSettingEnum("a_cust_zoomC", "Fade on ADS3", ["Off", "On"])
+    AddConVarSettingEnum("a_cust_zoomD", "Fade on ADS4", ["Off", "On"])
+	AddModCategory("RGB Mode")
+    AddConVarSettingEnum("a_cust_rgb", "RGB Crosshair", ["Off", "On :D"])
+    AddConVarSettingEnum("a_cust_rgbB", "RGB Crosshair2", ["Off", "On :D"])
+    AddConVarSettingEnum("a_cust_rgbC", "RGB Crosshair3", ["Off", "On :D"])
+    AddConVarSettingEnum("a_cust_rgbD", "RGB Crosshair4", ["Off", "On :D"])
+    
     /*
     //AddConVarSettingEnum("a_cust_crosshair_typeB", "Crosshair Shape2", "CustCrossShapes", ["Car", "Alternator", "EVA", "Mastiff", "WingmanE", "GL", "Mozambique", "SMR", "B3wingman", "CircleBig", "CircleSmall", "ChargeRifle", "Plus", "Leadwall", "FlightCore", "TitanSniper", "40mm", "Scorch", "Rockets", "Frag", "Arc", "PulseBlade", "GravStar", "Satchel", "Firestar", "eSmoke"])
     AddConVarSetting("a_cust_colB", "Base Colour2", "CustCrossMain", "vector")
